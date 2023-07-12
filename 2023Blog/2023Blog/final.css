@@ -1,0 +1,222 @@
+@media(min-width: 901px) {
+    head,
+    body {
+        font-family: 'Caveat', cursive;
+    }
+    #bigbox {
+        display: grid;
+        font-size: 22px;
+        flex-direction: row;
+        grid-template-columns: minmax (min-content, 1300PX 4);
+        grid-template-rows: max-content max-content max-content max-content;
+        grid-template-areas: 'headertop headertop headertop headertop '' maininfo maininfo maininfo  sidenote '' maininfo maininfo maininfo sidenote '' footer footer footer footer '
+    }
+    header {
+        border: 2px solid navy;
+        background-color: rgb(33, 112, 215);
+        padding: 15px;
+        font: 300px;
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+    #AMI {
+        border: 5px solid seagreen;
+        background-color: bisque;
+        width: 800px;
+        font-size: 18PX;
+        justify-items: center;
+        padding-inline-start: 5px;
+    }
+    #AMI2 {
+        border: 5px solid seagreen;
+        background-color: bisque;
+        width: 600px;
+        font-size: 12PX;
+        height: fit-content;
+        justify-content: center;
+        padding-inline-start: 2px;
+    }
+    #sb2 {
+        border: 4px solid salmon;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 10px;
+        justify-items: center;
+        font-size: 12px;
+        margin-left: -250PX;
+    }
+    #lwp {
+        width: 200px;
+        height: 200px;
+    }
+    #sng {
+        height: 350px;
+        width: 650px;
+        border: 5px solid salmon;
+        background-image: none;
+        background-color: bisque;
+        padding: 15px;
+    }
+    #sngb {
+        height: 150px;
+        width: 350px;
+        border: 5px solid salmon;
+        background-image: none;
+        background-color: bisque;
+        padding: 15px;
+    }
+    #CSP {
+        height: 350px;
+        width: 350px;
+        border: 5px solid navy;
+        background-image: none;
+        background-color: bisque;
+        padding: 15px;
+    }
+    #bppo {
+        font-size: 18px;
+    }
+    #videosb {
+        margin-top: 950PX;
+        width: max-content;
+        font-size: 12px;
+        margin-right: 350PX;
+        background-color: bisque;
+        border: 5PX solid seagreen;
+        justify-items: center;
+    }
+    #sngf {
+        border: 4px solid salmon;
+        background-color: bisque;
+        justify-content: center;
+        width: auto;
+        padding: 10px;
+        margin-left: 25px;
+    }
+    #bpo {
+        border: 4px solid navy;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 10px;
+        justify-items: center;
+        font-size: 12px;
+    }
+    #pq {
+        font-size: 22px;
+        justify-content: center;
+        margin-left: 125px;
+    }
+    #pqb {
+        font-size: 12px;
+        justify-content: center;
+        margin-left: 15px;
+    }
+    #uptb {
+        margin-left: 350px;
+    }
+    #sb {
+        margin-left: 150px;
+    }
+    li {
+        list-style: none;
+        font-size: 20px;
+    }
+    .headertop {
+        margin-top: 10px;
+        grid-area: headertop;
+        background-color: bisque;
+        border: 8px solid bisque;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        font-size: 22px;
+        justify-content: space-between;
+    }
+    .maininfo {
+        grid-area: maininfo;
+        background-color: white;
+        font-size: 22px;
+        display: grid;
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 52px;
+    }
+    h2 {
+        justify-content: center;
+        font: 72px;
+    }
+    .sidenote {
+        grid-area: sidenote;
+        border: 4px solid navy;
+        background-color: bisque;
+        margin-top: 10PX;
+        font-size: 22px;
+        font-weight: bolder;
+        display: flexbox;
+        flex-direction: column;
+        height: 1350px;
+        padding: 50px;
+        justify-content: right;
+        margin-left: 75px;
+        margin-bottom: 100px;
+    }
+    #SMBCO {
+        background-color: whitesmoke;
+        border: 2PX dotted rgb(70, 107, 135);
+        font-size: 5px;
+        justify-content: center;
+        width: fit-content;
+        margin-left: 80px;
+    }
+    #bttl {
+        color: whitesmoke;
+        background-color: none;
+        font-size: 22px;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    img {
+        border: 4px solid rgb(114, 51, 61);
+        height: 150px;
+        width: 150px;
+        padding: 13px;
+        margin: 15px;
+    }
+    #sociImg {
+        border: 2px solid rgb(111, 0, 96);
+        display: grid;
+        flex-direction: row;
+        height: 35PX;
+        width: 35px;
+        margin-bottom: 10px;
+    }
+    .CSP {
+        grid-area: sidenote;
+        height: 450PX;
+        width: 650PX;
+        display: flexbox;
+        flex-direction: column;
+    }
+    .footer {
+        grid-area: footer;
+        font-size: 22px;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        background-color: rgb(181, 78, 66);
+        height: auto;
+        width: auto;
+        color: whitesmoke;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    #space1 {
+        margin-top: 100px;
+    }
+    #hdp {
+        height: 220px;
+        width: 360px;
+    }
+}
